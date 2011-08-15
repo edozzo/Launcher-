@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Launcher/Main.cs">
+    <Files>
+      <File FileName="Launcher/Main.cs" Line="14" Column="17" />
+      <File FileName="Launcher/MainWindow.cs" Line="6" Column="2" />
+      <File FileName="Launcher/SplashScreen.cs" Line="8" Column="18" />
+      <File FileName="Launcher/Launcher.conf" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Launcher" expanded="True">
+            <Node name="image" expanded="True" />
+            <Node name="Main.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

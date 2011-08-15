@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+    <target-gtk-version>2.12</target-gtk-version>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/Launcher.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="685 512">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="Icon">file:./image/12.ico</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Notebook" id="notebook1">
+        <property name="MemberName" />
+        <property name="CanFocus">True</property>
+        <property name="CurrentPage">0</property>
+        <child>
+          <widget class="Gtk.Fixed" id="fixed1">
+            <property name="MemberName" />
+            <property name="HasWindow">False</property>
+            <child>
+              <placeholder />
+            </child>
+            <child>
+              <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+                <property name="MemberName" />
+                <property name="WidthRequest">200</property>
+                <property name="HeightRequest">20</property>
+                <property name="VscrollbarPolicy">Never</property>
+                <property name="HscrollbarPolicy">Never</property>
+                <property name="ShadowType">In</property>
+                <child>
+                  <widget class="Gtk.TextView" id="UsernameTxt">
+                    <property name="MemberName" />
+                    <property name="WidthRequest">200</property>
+                    <property name="HeightRequest">50</property>
+                    <property name="CanFocus">True</property>
+                    <property name="ShowScrollbars">True</property>
+                    <property name="Text" translatable="yes" />
+                    <property name="WrapMode">WordChar</property>
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="X">117</property>
+                <property name="Y">349</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="UserLbl">
+                <property name="MemberName" />
+                <property name="WidthRequest">100</property>
+                <property name="LabelProp" translatable="yes">Username</property>
+              </widget>
+              <packing>
+                <property name="X">3</property>
+                <property name="Y">354</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Frame" id="LoginFrame">
+                <property name="MemberName" />
+                <property name="WidthRequest">400</property>
+                <property name="HeightRequest">150</property>
+                <property name="ShadowType">In</property>
+                <property name="BorderWidth">1</property>
+                <child>
+                  <widget class="Gtk.Alignment" id="GtkAlignment">
+                    <property name="MemberName" />
+                    <property name="Xalign">0</property>
+                    <property name="Yalign">0</property>
+                    <property name="LeftPadding">12</property>
+                    <child>
+                      <widget class="Gtk.Fixed" id="fixed5">
+                        <property name="MemberName" />
+                        <property name="HasWindow">False</property>
+                        <child>
+                          <placeholder />
+                        </child>
+                        <child>
+                          <placeholder />
+                        </child>
+                        <child>
+                          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow1">
+                            <property name="MemberName" />
+                            <property name="WidthRequest">200</property>
+                            <property name="HeightRequest">20</property>
+                            <property name="VscrollbarPolicy">Never</property>
+                            <property name="HscrollbarPolicy">Never</property>
+                            <property name="ShadowType">In</property>
+                            <child>
+                              <widget class="Gtk.TextView" id="PasswordTxt">
+                                <property name="MemberName" />
+                                <property name="CanFocus">True</property>
+                                <property name="ShowScrollbars">True</property>
+                                <property name="Text" translatable="yes" />
+                              </widget>
+                            </child>
+                          </widget>
+                          <packing>
+                            <property name="X">101</property>
+                            <property name="Y">33</property>
+                          </packing>
+                        </child>
+                      </widget>
+                    </child>
+                  </widget>
+                </child>
+                <child>
+                  <widget class="Gtk.Label" id="Login">
+                    <property name="MemberName" />
+                    <property name="LabelProp" translatable="yes">&lt;b&gt;Login&lt;/b&gt;</property>
+                    <property name="UseMarkup">True</property>
+                  </widget>
+                  <packing>
+                    <property name="type">label_item</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="Y">330</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label3">
+                <property name="MemberName" />
+                <property name="WidthRequest">100</property>
+                <property name="HeightRequest">20</property>
+                <property name="LabelProp" translatable="yes">Password</property>
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">378</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="PlayBtn">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Play</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnPlayBtnClicked" />
+              </widget>
+              <packing>
+                <property name="X">517</property>
+                <property name="Y">378</property>
+              </packing>
+            </child>
+          </widget>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="MainLbl">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Main</property>
+          </widget>
+          <packing>
+            <property name="type">tab</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Fixed" id="fixed4">
+            <property name="MemberName" />
+            <property name="HasWindow">False</property>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="CharCopyLbl">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Character Copy</property>
+          </widget>
+          <packing>
+            <property name="type">tab</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Fixed" id="fixed3">
+            <property name="MemberName" />
+            <property name="HasWindow">False</property>
+          </widget>
+          <packing>
+            <property name="Position">2</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Shoutbox</property>
+          </widget>
+          <packing>
+            <property name="type">tab</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Fixed" id="fixed2">
+            <property name="MemberName" />
+            <property name="HasWindow">False</property>
+          </widget>
+          <packing>
+            <property name="Position">3</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label2">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Gm Panel</property>
+          </widget>
+          <packing>
+            <property name="type">tab</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Window" id="Launcher.SplashScreen" design-size="667 477">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">SplashScreen</property>
+    <property name="TypeHint">Splashscreen</property>
+    <property name="WindowPosition">Center</property>
+    <property name="Resizable">False</property>
+    <property name="AllowGrow">False</property>
+    <property name="Decorated">False</property>
+    <property name="Role" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Image" id="image2">
+            <property name="MemberName" />
+            <property name="Xalign">0</property>
+            <property name="Pixbuf">resource:Launcher.image.SplashScreen.gif</property>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
