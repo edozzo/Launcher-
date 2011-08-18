@@ -1,0 +1,37 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Launcher/MainWindow.cs">
+    <Files>
+      <File FileName="Launcher/Main.cs" Line="18" Column="1" />
+      <File FileName="Launcher/MainWindow.cs" Line="142" Column="7" />
+      <File FileName="Launcher/SplashScreen.cs" Line="1" Column="1" />
+      <File FileName="ShareLib/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="ShareLib/EncDec.cs" Line="358" Column="6" />
+      <File FileName="ShareLib/OSDetection.cs" Line="38" Column="1" />
+      <File FileName="Launcher/App.conf" Line="14" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Launcher" expanded="True" selected="True">
+            <Node name="image" expanded="True" />
+          </Node>
+          <Node name="ShareLib" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>splittedCmd</Value>
+          <Value>OSType</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
